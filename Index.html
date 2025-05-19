@@ -4,13 +4,16 @@
   </head>
   <body>
     <a-scene>
+      <a-asset>
+        <img id="granitos" scr="blanco-perlaGranito.jpg">
+      </a-asset>
      <a-box position ="0 1 -1" color="yellow" depth="0.1" height="1" width="0.5"></a-box>
      <a-box position ="-0.3 1 -0.8" color="green" rotation="0 90 0" depth="0.1" height="1" width="0.5"></a-box>
     <a-box position ="0.3 1 -0.8" color="blue" rotation="0 90 0" depth="0.1" height="1" width="0.5"></a-box>
      <a-box position ="0 1.55 -0.8" color="red" rotation="90 0 0" depth="0.1" height="0.5" width="0.7"></a-box>
   <a-box position ="0 0.45 -0.8" color="pink" rotation="90 0 0" depth="0.1" height="0.5" width="0.7"></a-box>
     <a-box position="0 0 0" depth="0.1" height="0.1" width="0.1" animation="property: position; to: 1 8 -10; dur: 2000; easing: linear; dir: altenative; loop: true" color="tomato"></a-box>
-<a-box position="0 0 0" depth="0.5" height="0.5" width="0.5" animation="property: rotation; to: 0 360 0; loop: true; dur: 1000" animation__02="property: position; to: 0 5 0; dur: 2000; easing: linear; dir: alternate; loop: true"></a-box>
+<a-box position="0 0 0" depth="0.5" height="0.5" width="0.5" animation="property: rotation; to: 0 360 0; loop: true; dur: 1000" animation__02="property: position; to: 0 5 0; dur: 2000; easing: linear; dir: alternate; loop: true" scr="#granitos"></a-box>
   </a-scene>
   </body>
 </html> 
